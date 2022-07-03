@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="6.46.0" timestamp="2022-07-02T00:00:27.779">
+<file name="src/main/java/labcodeinspection/Email.java">
+<violation beginline="5" endline="5" begincolumn="0" endcolumn="0" rule="ImmutableField" ruleset="Design" package="labcodeinspection" class="Email" externalInfoUrl="https://pmd.github.io/pmd-6.46.0/pmd_rules_java_design.html#immutablefield" priority="3">
+ImmutableField: Private field 'm_firstName' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="5" endline="5" begincolumn="0" endcolumn="0" rule="ImmutableField" ruleset="Design" package="labcodeinspection" class="Email" externalInfoUrl="https://pmd.github.io/pmd-6.46.0/pmd_rules_java_design.html#immutablefield" priority="3">
+ImmutableField: Private field 'm_firstName' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="6" endline="6" begincolumn="0" endcolumn="0" rule="ImmutableField" ruleset="Design" package="labcodeinspection" class="Email" externalInfoUrl="https://pmd.github.io/pmd-6.46.0/pmd_rules_java_design.html#immutablefield" priority="3">
+ImmutableField: Private field 'm_lastName' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="6" endline="6" begincolumn="0" endcolumn="0" rule="ImmutableField" ruleset="Design" package="labcodeinspection" class="Email" externalInfoUrl="https://pmd.github.io/pmd-6.46.0/pmd_rules_java_design.html#immutablefield" priority="3">
+ImmutableField: Private field 'm_lastName' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="7" endline="7" begincolumn="0" endcolumn="0" rule="RedundantFieldInitializer" ruleset="Performance" package="labcodeinspection" class="Email" externalInfoUrl="https://pmd.github.io/pmd-6.46.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+RedundantFieldInitializer: Avoid using redundant field initializer for 'password'
+</violation>
+<violation beginline="7" endline="7" begincolumn="0" endcolumn="0" rule="RedundantFieldInitializer" ruleset="Performance" package="labcodeinspection" class="Email" externalInfoUrl="https://pmd.github.io/pmd-6.46.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+RedundantFieldInitializer: Avoid using redundant field initializer for 'password'
+</violation>
+<violation beginline="23" endline="33" begincolumn="0" endcolumn="0" rule="SwitchStmtsShouldHaveDefault" ruleset="Best Practices" package="labcodeinspection" class="Email" externalInfoUrl="https://pmd.github.io/pmd-6.46.0/pmd_rules_java_bestpractices.html#switchstmtsshouldhavedefault" priority="3">
+SwitchStmtsShouldHaveDefault: Switch statements should be exhaustive, add a default case (or missing enum branches)
+</violation>
+<violation beginline="23" endline="33" begincolumn="0" endcolumn="0" rule="SwitchStmtsShouldHaveDefault" ruleset="Best Practices" package="labcodeinspection" class="Email" externalInfoUrl="https://pmd.github.io/pmd-6.46.0/pmd_rules_java_bestpractices.html#switchstmtsshouldhavedefault" priority="3">
+SwitchStmtsShouldHaveDefault: Switch statements should be exhaustive, add a default case (or missing enum branches)
+</violation>
+</file>
+<file name="src/main/java/labcodeinspection/EmailApp.java">
+<violation beginline="5" endline="26" begincolumn="0" endcolumn="0" rule="UseUtilityClass" ruleset="Design" package="labcodeinspection" class="EmailApp" externalInfoUrl="https://pmd.github.io/pmd-6.46.0/pmd_rules_java_design.html#useutilityclass" priority="1">
+UseUtilityClass: All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+<violation beginline="5" endline="26" begincolumn="0" endcolumn="0" rule="UseUtilityClass" ruleset="Design" package="labcodeinspection" class="EmailApp" externalInfoUrl="https://pmd.github.io/pmd-6.46.0/pmd_rules_java_design.html#useutilityclass" priority="1">
+UseUtilityClass: All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+</file>
+</pmd>
